@@ -20,12 +20,11 @@ Step 7: Print the results.<br>
 ## Program :
 
 
-```
+```python
 # Importing Library
 from pgmpy.models import BayesianNetwork
 from pgmpy.inference import VariableElimination
-```
-```
+
 # Defining network structure
 
 alarm_model = BayesianNetwork(
@@ -72,8 +71,7 @@ cpd_marycalls = TabularCPD(
 alarm_model.add_cpds(
     cpd_burglary, cpd_earthquake, cpd_alarm, cpd_johncalls, cpd_marycalls
 )
-```
-```
+
 alarm_model.check_model()
 inference=VariableElimination(alarm_model)
 query='Burglary'
