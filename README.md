@@ -1,12 +1,10 @@
+<H1>Experiment 2:Implementation of Exact Inference Method of Bayesian Network</h1>
+<H1>Date:</H1>
 <H3>Name:PAVANA G</H3>
 <H3>Register No:212222230105</H3>
-<H3>Experiment 2</H3>
-<H3>Date:</H3>
-<h1 align =center>Implementation of Exact Inference Method of Bayesian Network</h1>
 
 ## Aim:
 To implement the inference Burglary P(B| j,⥗m) in alarm problem by using Variable Elimination method in Python.
-
 ## Algorithm:
 
 Step 1: Define the Bayesian Network structure for alarm problem with 5 random variables, Burglary,Earthquake,John Call,Mary Call and Alarm.<br>
@@ -18,7 +16,6 @@ Step 6: Perform exact inference using the defined evidence and query variables.<
 Step 7: Print the results.<br>
 
 ## Program :
-
 
 ```python
 # Importing Library
